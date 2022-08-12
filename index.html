@@ -2,55 +2,87 @@
 <html lang="de">
 
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>tu-sports.de</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>tu-sports.de</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+  <link href="fontawesome/css/all.css" rel="stylesheet">
 </head>
 
 <body>
 
-    <nav class="navbar navbar-expand-lg bg-light">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">Navbar</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
+  <!-- Navigationsleiste oben start -->
+  <nav class="navbar navbar-expand-lg bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand fw-bold" href="#">TU-SPORTS.DE</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Dropdown
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li>
+                <hr class="dropdown-divider">
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Dropdown
-                </a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
-                  <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="#">Something else here</a></li>
-                </ul>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link disabled">Disabled</a>
-              </li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
             </ul>
-            <form class="d-flex" role="search">
-              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-              <button class="btn btn-outline-success" type="submit">Search</button>
-            </form>
-          </div>
-        </div>
-      </nav>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled">Disabled</a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+  <!-- Navileiste oben Ende -->
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
-        crossorigin="anonymous"></script>
+  <!-- Container der den Inhalt umschlingt und die Weite automatisch ans Gerät anpasst -->
+  <div class="container text-center">
+
+    <!-- Tabelle mit einer Zeile "row" und mehreren Spalten -->
+    <div class="row">
+      <!-- Spalte mit maximaler Breite "col-12", sodass die ganze Seitenbreite benutzt wird -->
+      <div class="col-12 mt-5">
+        <img src="logo.png" class="img-fluid" alt="tu-sports.de logo" width="40%">
+      </div>
+      <!-- Naechste Spalte -->
+      <div class="col-12">
+        <h1 class="display-6"><i class="fa-brands fa-facebook"> <i class="fa-brands fa-instagram"></i></i></h1>
+      </div>
+      <div class="col-12 mt-5">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2607.5632831473545!2d11.190023316256095!3d49.189873085262235!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x479f404d2e1f5495%3A0x4d84d57a7d3d9d8e!2sFahrrad-Werkstatt%20Hilpoltstein%20Inh.Tobias%20Ullmann!5e0!3m2!1sde!2sde!4v1660289520847!5m2!1sde!2sde" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+      <div class="col-12 mt-5">
+        <iframe src="https://www.mein.bike/integration/fahrrad-werkstatt" width="100%" height="1000px" ></iframe>
+      </div>
+      <div class="col-12 mt-3">
+        Impressum Datenschutz
+      </div>
+    </div>
+  </div>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+    crossorigin="anonymous"></script>
 </body>
 
 </html>
