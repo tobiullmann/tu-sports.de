@@ -73,3 +73,7 @@
 body {
     font-family: "Inter";
 }
+
+.img-size {
+    width: 100%;
+}
