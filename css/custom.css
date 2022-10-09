@@ -70,13 +70,14 @@
     font-style: normal;
 }
 
-body {
-    font-family: "Inter";
-    /* background-color: #212529; */
+:root {
+    --tu-color: #212529;
 }
 
-.img-size {
-    width: 100%;
+body {
+    font-family: "Inter";
+    background-color: var(--tu-color);
+    color: whitesmoke;
 }
 
 .navbar-toggler {
@@ -87,8 +88,32 @@ body {
     box-shadow: none !important;
 }
 
-.highlightme {
-    background-color: #ff0000;
-    color:white;
-    font-weight: bold;
-}
+/* test */
+
+.row{
+    align-items: stretch;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+  }
+  .card {
+    /*float: left;*/
+    max-width: 33.333%;
+    padding: .75rem;
+    margin-bottom: 2rem;
+    border: 0;
+    flex-basis: 33.333%;
+    flex-grow: 0;
+    flex-shrink: 0;
+  }
+  
+  .card > img {
+    margin-bottom: .75rem;
+    width: 100%;
+  }
+  
+  .card-text {
+    font-size: 85%;
+  }
