@@ -72,6 +72,7 @@
 
 :root {
     --tu-color: #212529;
+    --font-muted: rgb(168, 168, 168);
 }
 
 .fc-grey {
@@ -90,4 +91,9 @@ body {
 
 .navbar-toggler:focus {
     box-shadow: none !important;
+}
+
+a {
+    color: whitesmoke;
+    text-decoration: none !important;
 }
