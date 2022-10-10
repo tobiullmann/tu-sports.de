@@ -81,8 +81,8 @@
 
 body {
     font-family: "Inter";
-    background-color: var(--tu-color);
-    color: whitesmoke;
+    /* background-color: var(--tu-color); */
+    /* color: whitesmoke; */
 }
 
 .navbar-toggler {
@@ -93,7 +93,14 @@ body {
     box-shadow: none !important;
 }
 
-a {
-    color: whitesmoke;
-    text-decoration: none !important;
+.bg-opacity {
+    background-color: rgba(0,0,0,0) !important;
+}
+
+.bg-section {
+    /* background-color: whitesmoke; */
+    background-image: url("../img/header.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
 }
