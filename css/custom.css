@@ -98,7 +98,6 @@ body {
 }
 
 .bg-section {
-    /* background-color: whitesmoke; */
     background-image: url("../img/header.jpg");
     background-repeat: no-repeat;
     background-size: cover;
