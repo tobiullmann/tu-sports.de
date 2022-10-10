@@ -126,3 +126,8 @@ a:active {
     color: black;
 
 }
+
+.nav-link {
+    color: whitesmoke !important;
+    font-weight: bold;
+}
