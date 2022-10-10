@@ -94,7 +94,7 @@ body {
 }
 
 .bg-opacity {
-    background-color: rgba(0,0,0,0) !important;
+    background-color: rgba(0, 0, 0, 0) !important;
 }
 
 .bg-section {
@@ -102,4 +102,27 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: right;
+}
+
+a:link {
+    text-decoration: none;
+    color: black;
+}
+
+a:visited {
+    text-decoration: none;
+    color: black;
+
+}
+
+a:hover {
+    text-decoration: none;
+    color: red;
+
+}
+
+a:active {
+    text-decoration: none;
+    color: black;
+
 }
