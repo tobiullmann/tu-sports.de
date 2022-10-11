@@ -73,7 +73,7 @@
 :root {
     --tu-color: #212529;
     --font-muted: rgb(168, 168, 168);
-    --tu-icon-blue: #2f3d57;
+    --tu-icon-blue: #000000;
 }
 
 .fc-grey {
@@ -99,10 +99,10 @@ body {
 }
 
 .bg-section {
-    background-image: url("../img/background.webp");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: right bottom;
+    background-image:  url("../img/logo.png"), url("../img/background.webp");
+    background-repeat: no-repeat, no-repeat;
+    background-size: 300px, cover;
+    background-position: top 20px right 50%, right bottom;
 }
 
 
@@ -134,10 +134,10 @@ a:active {
     font-weight: bold;
 }
 
-.f-offset1 {
-    transform: translateY(-6%);
+.f-offset-insta {
+    transform: translateY(5%);
 }
 
-.f-offset2 {
-    transform: translateY(5%);
+.f-offset-shop {
+    transform: translateY(-6%);
 }
