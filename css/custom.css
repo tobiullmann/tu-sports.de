@@ -101,7 +101,7 @@ body {
 .bg-section {
     background-image:  url("../img/logo.png"), url("../img/background.webp");
     background-repeat: no-repeat, no-repeat;
-    background-size: 300px, cover;
+    background-size: 30%, cover;
     background-position: top 20px right 50%, right bottom;
 }
 
