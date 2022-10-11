@@ -73,6 +73,7 @@
 :root {
     --tu-color: #212529;
     --font-muted: rgb(168, 168, 168);
+    --tu-icon-blue: #2f3d57;
 }
 
 .fc-grey {
@@ -104,14 +105,15 @@ body {
     background-position: right bottom;
 }
 
+
 a:link {
     text-decoration: none;
-    color: black;
+    color: var(--tu-icon-blue);
 }
 
 a:visited {
     text-decoration: none;
-    color: black;
+    color: var(--tu-icon-blue);
 
 }
 
@@ -130,4 +132,12 @@ a:active {
 .nav-link {
     color: whitesmoke !important;
     font-weight: bold;
+}
+
+.f-offset1 {
+    transform: translateY(-6%);
+}
+
+.f-offset2 {
+    transform: translateY(5%);
 }
