@@ -161,6 +161,11 @@ body {
     box-shadow: none !important;
 }
 
+.underline-red {
+    text-decoration: underline red;
+    text-underline-offset: 0.4rem;
+}
+
 .filter-insta {
     filter: sepia(100%) hue-rotate(20deg);
 }
