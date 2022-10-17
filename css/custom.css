@@ -163,7 +163,7 @@ body {
 
 .underline-red {
     text-decoration: underline red;
-    text-underline-offset: 0.4rem;
+    text-underline-offset: 0.1rem;
 }
 
 .filter-insta {
