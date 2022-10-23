@@ -150,7 +150,7 @@ body {
 .bg-image-1 {
     background: url('../img/background.webp');
     background-size: cover;
-    background-position: center;
+    background-position: right;
 }
 
 .height-600 {
