@@ -160,3 +160,22 @@ body {
 .height-250 {
     height: 250px;
 }
+
+.zoom {
+    transition: transform 0.4s;
+}
+
+.zoom:hover {
+    transform: scale(1.03);
+}
+
+.btn-link {
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+    font-size:larger;
+}
+
+.btn-link:hover {
+    color: rgb(201, 0, 0);
+}
