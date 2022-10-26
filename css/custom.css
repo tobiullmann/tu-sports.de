@@ -148,9 +148,9 @@ body {
 }
 
 .bg-image-1 {
-    background: url('../img/header-new-1.webp');
+    background: url('../img/header-new.webp');
     background-size: cover;
-    background-position: right;
+    background-position: center;
 }
 
 .height-600 {
