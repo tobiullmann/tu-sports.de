@@ -198,10 +198,10 @@ body {
     width: 100% !important;
     height: auto !important;
     margin: 10px;
-    border-radius: 13px;
-    border-color: rgb(155, 155, 155);
+    border-radius: 8px;
+    /* border-color: rgb(155, 155, 155);
     border-width: 1px;
-    border-style: solid;
+    border-style: solid; */
 }
 
 @media (max-width: 1200px) {
