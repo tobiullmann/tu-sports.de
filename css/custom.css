@@ -136,7 +136,7 @@
 }
 
 :root {
-    --margin-value: 20px;
+    --margin-value: 0px;
   }
 
 .navbar-toggler {
@@ -197,7 +197,7 @@ body {
     /* Just in case there are inline attributes */
     width: 100% !important;
     height: auto !important;
-    margin: 10px;
+    margin: 0px;
     /* border-radius: 8px; */
     /* border-color: rgb(155, 155, 155);
     border-width: 1px;
