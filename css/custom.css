@@ -207,7 +207,7 @@ body {
     height: auto !important;
     margin: 0px;
     /* border-radius: 8px; */
-    border-color: rgb(255, 255, 255);
+    border-color: rgb(0, 0, 0);
     border-width: 1px;
     border-style: solid;
 }
