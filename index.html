@@ -32,8 +32,10 @@
         </button>
         <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
           <div class="navbar-nav">
-            <a href="#" class="fw-bold btn-link" data-bs-toggle="modal" data-bs-target="#exampleModal">Impressum&nbsp;&nbsp;</a>
-            <a href="#" class="fw-bold btn-link" data-bs-toggle="modal" data-bs-target="#exampleModal2">Datenschutz</a>
+            <div class="navbar-nav">
+              <a href="#" class="nav-link" data-bs-toggle="modal" data-bs-target="#exampleModal">Impressum</a>
+              <a href="#" class="nav-link" data-bs-toggle="modal" data-bs-target="#exampleModal2">Datenschutzerkl&auml;rung</a>
+            </div>
           </div>
         </div>
 
@@ -107,15 +109,15 @@
         <!-- MODAL Impressum Ende -->
 
         <!-- MODAL Datenschutz -->
-        <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel2" aria-hidden="true">
+        <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel2"
+          aria-hidden="true">
           <div class="modal-dialog">
             <div class="modal-content">
               <div class="modal-header">
-                <h1 class="modal-title fs-5" id="exampleModalLabel2">Datenschutz</h1>
+                <h1 class="modal-title fs-5" id="exampleModalLabel2">Datenschutzerkl&auml;rung</h1>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
               </div>
               <div class="modal-body">
-                <h1>Datenschutzerklärung</h1>
                 <p>Verantwortlicher im Sinne der Datenschutzgesetze, insbesondere der EU-Datenschutzgrundverordnung
                   (DSGVO), ist:</p>
                 <p>Tobias Ullmann</p>
@@ -234,51 +236,17 @@
 
 
   <div class="container rounded border bg-image-1">
-    <div class="row text-center height-600 align-items-center">
+    <div class="row text-center height-600 align-items-center bg-filter2">
       <div class="col-12">
         <h1 class="fw-bold display-4">Tobias Ullmann</h1>
         <h1 class="fw-bold display-4">Fahrrad-Werkstatt</h1>
-        <p>Herzlich Willkommen in der freien Fahrrad-Werkstatt in Hilpoltstein</p>
+        <p class="fw-bold text-shadow">Herzlich Willkommen in der freien Fahrrad-Werkstatt in Hilpoltstein</p>
       </div>
       <div class="col-12">
         <a href="#about" type="button" class="btn btn-dark mt-5">Mehr erfahren <i
             class="fa-solid fa-chevron-down"></i></a>
       </div>
     </div>
-
-    <!-- <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <img src="img/header-new.webp" class="d-block w-100" alt="">
-          <div class="carousel-caption d-none d-md-block">
-            <h1 class="fw-bold display-4">Tobias Ullmann</h1>
-            <p>Some representative placeholder content for the first slide.</p>
-          </div>
-        </div>
-        <div class="carousel-item">
-          <img src="img/header-new-1.webp" class="d-block w-100" alt="">
-          <div class="carousel-caption d-none d-md-block">
-            <h1 class="fw-bold display-4">Tobias Ullmann</h1>
-            <p>Some representative placeholder content for the third slide.</p>
-          </div>
-        </div>
-        <div class="carousel-item">
-          <img src="img/header-new-2.webp" class="d-block w-100" alt="">
-          <div class="carousel-caption d-none d-md-block">
-            <h1 class="fw-bold display-4">Tobias Ullmann</h1>
-            <p>Some representative placeholder content for the third slide.</p>
-          </div>
-        </div>
-      </div>
-      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-      </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-      </button>
-    </div> -->
   </div>
 
   <div class="container my-5" id="about">
@@ -286,7 +254,7 @@
       <div class="col-12 text-center">
         <h1 class="fw-bold">&Uuml;ber uns</h1>
       </div>
-      <div class="col-md-7 col-12 mt-3 text-center">
+      <div class="col-md-9 col-12 mt-3 text-center">
         <p>
           Gerne sind wir Ihr kompetenter Ansprechpartner für ein neues Rennrad, Mountainbike, Trekking-, Gravel- oder
           E-Bike, Radleasing und vieles mehr.
@@ -397,14 +365,6 @@
           USt.Id.: DE264528486 <br>
         </p>
       </div>
-      <!-- <div class="col-md-6 col-12 mt-4 align-self-end">
-        <div class="ratio ratio-4x3">
-          <iframe
-            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d10430.25386736159!2d11.192212!3d49.1898696!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x479f404d2e1f5495%3A0x4d84d57a7d3d9d8e!2sFahrrad-Werkstatt%20Hilpoltstein%20Inh.Tobias%20Ullmann!5e0!3m2!1sde!2sde!4v1668350648816!5m2!1sde!2sde"
-            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-            referrerpolicy="no-referrer-when-downgrade"></iframe>
-        </div>
-      </div> -->
     </div>
   </div>
 
@@ -419,7 +379,7 @@
         <h1 class="fw-bold">Galerie</h1>
       </div>
     </div>
-    <section id="photos" py-3>
+    <section id="photos" class="py-3">
       <img src="img/slider1.webp">
       <img src="img/slider4.webp">
       <img src="img/slider3.webp">

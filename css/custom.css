@@ -137,7 +137,7 @@
 
 :root {
     --margin-value: 0px;
-  }
+}
 
 .navbar-toggler {
     border: none !important;
@@ -152,9 +152,20 @@ body {
 }
 
 .bg-image-1 {
-    background: url('../img/header-new-2.webp');
+    background: url('../img/header-new-1.webp');
     background-size: cover;
     background-position: center;
+    backdrop-filter: blur(3px);
+}
+
+.bg-filter2 {
+
+    backdrop-filter: blur(2px);
+
+}
+
+.text-shadow {
+    text-shadow: 0px 2px 5px #ffffff, 0px -2px 5px #ffffff;
 }
 
 .height-600 {
@@ -199,9 +210,9 @@ body {
     height: auto !important;
     margin: 0px;
     /* border-radius: 8px; */
-    /* border-color: rgb(155, 155, 155);
+    border-color: rgb(255, 255, 255);
     border-width: 1px;
-    border-style: solid; */
+    border-style: solid;
 }
 
 @media (max-width: 1200px) {
