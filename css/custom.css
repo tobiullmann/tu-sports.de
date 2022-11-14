@@ -158,10 +158,8 @@ body {
     backdrop-filter: blur(3px);
 }
 
-.bg-filter2 {
-
-    backdrop-filter: blur(2px);
-
+.nav-link {
+    color: black !important;
 }
 
 .text-shadow {
