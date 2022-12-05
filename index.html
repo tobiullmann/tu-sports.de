@@ -19,6 +19,39 @@
 
 <body>
 
+  <script>
+    window.onload = function () {
+      // get the div container
+      var div = document.getElementById('myDiv');
+
+      // set the initial background image
+      div.style.backgroundImage = 'url(img/header-new-1.webp)';
+
+      // create an array of image URLs
+      var images = ['img/header-new-1.webp', 'img/header-new-2.webp', 'img/header-new.webp'];
+
+      // set the initial index to 0
+      var index = 0;
+
+      // function to rotate the background image
+      function rotateImage() {
+        // update the index and wrap around if necessary
+        index = (index + 1) % images.length;
+
+        // update the background image
+        div.style.backgroundImage = 'url(' + images[index] + ')';
+      }
+
+      // set a 1-second transition time for the fade effect
+      div.style.transition = 'background-image 1s';
+      div.style.webkitTransition = 'background-image 1s';
+      div.style.mozTransition = 'background-image 1s';
+
+      // run the function every X seconds
+      setInterval(rotateImage, 5000);
+    };
+  </script>
+
   <!-- NAVBAR -->
   <div class="container">
     <nav class="navbar navbar-expand-md">
@@ -215,7 +248,7 @@
   </div>
 
 
-  <div class="container rounded border bg-image-1">
+  <div class="container rounded border bg-image-1" id="myDiv">
     <div class="row text-center height-600 align-items-center">
       <div class="col-12">
         <h1 class="fw-bold display-4">Tobias Ullmann</h1>
@@ -378,8 +411,7 @@
 
 
   <script src="js/bootstrap.bundle.min.js"></script>
-  <script src="dist/lightgallery.umd.js"></script>
-
+ 
 </body>
 
 </html>
